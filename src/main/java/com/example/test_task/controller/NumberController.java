@@ -1,6 +1,5 @@
 package com.example.test_task.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import com.example.test_task.dto.NumberDTO;
@@ -17,7 +16,7 @@ public class NumberController {
 
     @PostMapping
     public void saveNumber(@RequestBody NumberDTO numberDto) {
-        numberService.saveNumber(numberDto););
+        numberService.saveNumber(numberDto);
     }
 
     @GetMapping
