@@ -16,7 +16,7 @@ public class NumberEntity {
     private Long id;
 
     @Column("NUMBER_VALUE")
-    private Double numberValue;
+    private Long numberValue;
 
 }
 
