@@ -4,4 +4,4 @@ CREATE TABLE IF NOT EXISTS `test_task`.`number` (
     PRIMARY KEY (`id`)
 );
 
---INSERT INTO `number` (`id`, `number_value`) VALUES (1, 1);
+--INSERT INTO `number` (`id`, `number_value`) VALUES (1, 0);
