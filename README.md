@@ -14,7 +14,7 @@ Before running the server application, make sure you have the following prerequi
    --INSERT INTO `number` (`id`, `number_value`) VALUES (1, 0);
    ```
 
-   You can just copy scripts from this file and execute them directly in your MySQL management tool (then you have to go to application.properties and set `spring.sql.init.mode=never`) or you can run the application, comment out 'insert' line and start the app again.
+   You can just copy scripts from this file and execute them directly in your MySQL management tool (then you have to go to application.properties and set `spring.sql.init.mode=never`) or you can run the application, comment out 'insert' line and after that start the app again.
 ### Running the Application
 
 Follow these steps to run the server application:
